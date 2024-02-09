@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C66DC082B76268C00B2B296 /* MacNotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C66DC072B76268C00B2B296 /* MacNotesApp.swift */; };
+		5C66DC0A2B76268C00B2B296 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C66DC092B76268C00B2B296 /* ContentView.swift */; };
+		5C66DC0C2B76268D00B2B296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C66DC0B2B76268D00B2B296 /* Assets.xcassets */; };
+		5C66DC0F2B76268D00B2B296 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C66DC0E2B76268D00B2B296 /* Preview Assets.xcassets */; };
+		5C66DC1A2B76268D00B2B296 /* MacNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C66DC192B76268D00B2B296 /* MacNotesTests.swift */; };
+		5C66DC242B76268D00B2B296 /* MacNotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C66DC232B76268D00B2B296 /* MacNotesUITests.swift */; };
+		5C66DC262B76268D00B2B296 /* MacNotesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C66DC252B76268D00B2B296 /* MacNotesUITestsLaunchTests.swift */; };
+		5C66DC332B7626D300B2B296 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C66DC322B7626D300B2B296 /* Home.swift */; };
+		5C66DC352B7626E600B2B296 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C66DC342B7626E600B2B296 /* NotesView.swift */; };
+		5C66DC372B7626F300B2B296 /* NoteCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C66DC362B7626F300B2B296 /* NoteCategory.swift */; };
+		5C66DC392B76270100B2B296 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C66DC382B76270100B2B296 /* Note.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C66DC162B76268D00B2B296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C66DBFC2B76268C00B2B296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C66DC032B76268C00B2B296;
+			remoteInfo = MacNotes;
+		};
+		5C66DC202B76268D00B2B296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C66DBFC2B76268C00B2B296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C66DC032B76268C00B2B296;
+			remoteInfo = MacNotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C66DC042B76268C00B2B296 /* MacNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C66DC072B76268C00B2B296 /* MacNotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacNotesApp.swift; sourceTree = "<group>"; };
+		5C66DC092B76268C00B2B296 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5C66DC0B2B76268D00B2B296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C66DC0E2B76268D00B2B296 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5C66DC102B76268D00B2B296 /* MacNotes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacNotes.entitlements; sourceTree = "<group>"; };
+		5C66DC152B76268D00B2B296 /* MacNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C66DC192B76268D00B2B296 /* MacNotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacNotesTests.swift; sourceTree = "<group>"; };
+		5C66DC1F2B76268D00B2B296 /* MacNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C66DC232B76268D00B2B296 /* MacNotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacNotesUITests.swift; sourceTree = "<group>"; };
+		5C66DC252B76268D00B2B296 /* MacNotesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacNotesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C66DC322B7626D300B2B296 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		5C66DC342B7626E600B2B296 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		5C66DC362B7626F300B2B296 /* NoteCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCategory.swift; sourceTree = "<group>"; };
+		5C66DC382B76270100B2B296 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C66DC012B76268C00B2B296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C66DC122B76268D00B2B296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C66DC1C2B76268D00B2B296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C66DBFB2B76268C00B2B296 = {
+			isa = PBXGroup;
+			children = (
+				5C66DC362B7626F300B2B296 /* NoteCategory.swift */,
+				5C66DC382B76270100B2B296 /* Note.swift */,
+				5C66DC062B76268C00B2B296 /* MacNotes */,
+				5C66DC182B76268D00B2B296 /* MacNotesTests */,
+				5C66DC222B76268D00B2B296 /* MacNotesUITests */,
+				5C66DC052B76268C00B2B296 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C66DC052B76268C00B2B296 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C66DC042B76268C00B2B296 /* MacNotes.app */,
+				5C66DC152B76268D00B2B296 /* MacNotesTests.xctest */,
+				5C66DC1F2B76268D00B2B296 /* MacNotesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C66DC062B76268C00B2B296 /* MacNotes */ = {
+			isa = PBXGroup;
+			children = (
+				5C66DC072B76268C00B2B296 /* MacNotesApp.swift */,
+				5C66DC322B7626D300B2B296 /* Home.swift */,
+				5C66DC342B7626E600B2B296 /* NotesView.swift */,
+				5C66DC092B76268C00B2B296 /* ContentView.swift */,
+				5C66DC0B2B76268D00B2B296 /* Assets.xcassets */,
+				5C66DC102B76268D00B2B296 /* MacNotes.entitlements */,
+				5C66DC0D2B76268D00B2B296 /* Preview Content */,
+			);
+			path = MacNotes;
+			sourceTree = "<group>";
+		};
+		5C66DC0D2B76268D00B2B296 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5C66DC0E2B76268D00B2B296 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5C66DC182B76268D00B2B296 /* MacNotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C66DC192B76268D00B2B296 /* MacNotesTests.swift */,
+			);
+			path = MacNotesTests;
+			sourceTree = "<group>";
+		};
+		5C66DC222B76268D00B2B296 /* MacNotesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C66DC232B76268D00B2B296 /* MacNotesUITests.swift */,
+				5C66DC252B76268D00B2B296 /* MacNotesUITestsLaunchTests.swift */,
+			);
+			path = MacNotesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C66DC032B76268C00B2B296 /* MacNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C66DC292B76268D00B2B296 /* Build configuration list for PBXNativeTarget "MacNotes" */;
+			buildPhases = (
+				5C66DC002B76268C00B2B296 /* Sources */,
+				5C66DC012B76268C00B2B296 /* Frameworks */,
+				5C66DC022B76268C00B2B296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacNotes;
+			productName = MacNotes;
+			productReference = 5C66DC042B76268C00B2B296 /* MacNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C66DC142B76268D00B2B296 /* MacNotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C66DC2C2B76268D00B2B296 /* Build configuration list for PBXNativeTarget "MacNotesTests" */;
+			buildPhases = (
+				5C66DC112B76268D00B2B296 /* Sources */,
+				5C66DC122B76268D00B2B296 /* Frameworks */,
+				5C66DC132B76268D00B2B296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C66DC172B76268D00B2B296 /* PBXTargetDependency */,
+			);
+			name = MacNotesTests;
+			productName = MacNotesTests;
+			productReference = 5C66DC152B76268D00B2B296 /* MacNotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C66DC1E2B76268D00B2B296 /* MacNotesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C66DC2F2B76268D00B2B296 /* Build configuration list for PBXNativeTarget "MacNotesUITests" */;
+			buildPhases = (
+				5C66DC1B2B76268D00B2B296 /* Sources */,
+				5C66DC1C2B76268D00B2B296 /* Frameworks */,
+				5C66DC1D2B76268D00B2B296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C66DC212B76268D00B2B296 /* PBXTargetDependency */,
+			);
+			name = MacNotesUITests;
+			productName = MacNotesUITests;
+			productReference = 5C66DC1F2B76268D00B2B296 /* MacNotesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C66DBFC2B76268C00B2B296 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					5C66DC032B76268C00B2B296 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					5C66DC142B76268D00B2B296 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5C66DC032B76268C00B2B296;
+					};
+					5C66DC1E2B76268D00B2B296 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5C66DC032B76268C00B2B296;
+					};
+				};
+			};
+			buildConfigurationList = 5C66DBFF2B76268C00B2B296 /* Build configuration list for PBXProject "MacNotes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C66DBFB2B76268C00B2B296;
+			productRefGroup = 5C66DC052B76268C00B2B296 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C66DC032B76268C00B2B296 /* MacNotes */,
+				5C66DC142B76268D00B2B296 /* MacNotesTests */,
+				5C66DC1E2B76268D00B2B296 /* MacNotesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C66DC022B76268C00B2B296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C66DC0F2B76268D00B2B296 /* Preview Assets.xcassets in Resources */,
+				5C66DC0C2B76268D00B2B296 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C66DC132B76268D00B2B296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C66DC1D2B76268D00B2B296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C66DC002B76268C00B2B296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C66DC372B7626F300B2B296 /* NoteCategory.swift in Sources */,
+				5C66DC0A2B76268C00B2B296 /* ContentView.swift in Sources */,
+				5C66DC332B7626D300B2B296 /* Home.swift in Sources */,
+				5C66DC352B7626E600B2B296 /* NotesView.swift in Sources */,
+				5C66DC082B76268C00B2B296 /* MacNotesApp.swift in Sources */,
+				5C66DC392B76270100B2B296 /* Note.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C66DC112B76268D00B2B296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C66DC1A2B76268D00B2B296 /* MacNotesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C66DC1B2B76268D00B2B296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C66DC262B76268D00B2B296 /* MacNotesUITestsLaunchTests.swift in Sources */,
+				5C66DC242B76268D00B2B296 /* MacNotesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C66DC172B76268D00B2B296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C66DC032B76268C00B2B296 /* MacNotes */;
+			targetProxy = 5C66DC162B76268D00B2B296 /* PBXContainerItemProxy */;
+		};
+		5C66DC212B76268D00B2B296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C66DC032B76268C00B2B296 /* MacNotes */;
+			targetProxy = 5C66DC202B76268D00B2B296 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5C66DC272B76268D00B2B296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C66DC282B76268D00B2B296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5C66DC2A2B76268D00B2B296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacNotes/MacNotes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacNotes/Preview Content\"";
+				DEVELOPMENT_TEAM = UMHRFV43J3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kama.MacNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5C66DC2B2B76268D00B2B296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacNotes/MacNotes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacNotes/Preview Content\"";
+				DEVELOPMENT_TEAM = UMHRFV43J3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kama.MacNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5C66DC2D2B76268D00B2B296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UMHRFV43J3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kama.MacNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacNotes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacNotes";
+			};
+			name = Debug;
+		};
+		5C66DC2E2B76268D00B2B296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UMHRFV43J3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kama.MacNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacNotes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacNotes";
+			};
+			name = Release;
+		};
+		5C66DC302B76268D00B2B296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UMHRFV43J3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kama.MacNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacNotes;
+			};
+			name = Debug;
+		};
+		5C66DC312B76268D00B2B296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UMHRFV43J3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kama.MacNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacNotes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C66DBFF2B76268C00B2B296 /* Build configuration list for PBXProject "MacNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C66DC272B76268D00B2B296 /* Debug */,
+				5C66DC282B76268D00B2B296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C66DC292B76268D00B2B296 /* Build configuration list for PBXNativeTarget "MacNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C66DC2A2B76268D00B2B296 /* Debug */,
+				5C66DC2B2B76268D00B2B296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C66DC2C2B76268D00B2B296 /* Build configuration list for PBXNativeTarget "MacNotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C66DC2D2B76268D00B2B296 /* Debug */,
+				5C66DC2E2B76268D00B2B296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C66DC2F2B76268D00B2B296 /* Build configuration list for PBXNativeTarget "MacNotesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C66DC302B76268D00B2B296 /* Debug */,
+				5C66DC312B76268D00B2B296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C66DBFC2B76268C00B2B296 /* Project object */;
+}
